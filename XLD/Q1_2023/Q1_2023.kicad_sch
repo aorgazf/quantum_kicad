@@ -6,10 +6,10 @@
 
   (lib_symbols
     (symbol "Quantum Computing:LO_R&S" (in_bom yes) (on_board no)
-      (property "Reference" "LO" (at 5.08 1.016 0)
+      (property "Reference" "LO" (at 7.62 1.016 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "LO_R&S" (at 5.08 -1.27 0)
+      (property "Value" "LO_R&S" (at 7.62 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -22,21 +22,21 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "LO_R&S_0_0"
-        (arc (start -1.27 0) (mid -0.635 -0.3618) (end 0 0)
+        (arc (start -3.302 0) (mid -1.651 -0.9472) (end 0 0)
           (stroke (width 0) (type default))
           (fill (type none))
         )
-        (circle (center 0 0) (radius 2.54)
+        (circle (center 0 0) (radius 5.0289)
           (stroke (width 0) (type default))
           (fill (type none))
         )
-        (arc (start 1.27 0) (mid 0.635 0.3616) (end 0 0)
+        (arc (start 3.302 0) (mid 1.651 0.9466) (end 0 0)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
       (symbol "LO_R&S_1_1"
-        (pin output line (at 0 -5.08 90) (length 2.54)
+        (pin output line (at 0 -7.62 90) (length 2.54)
           (name "" (effects (font (size 1.27 1.27))))
           (number "" (effects (font (size 1.27 1.27))))
         )
@@ -37774,7 +37774,7 @@
   (symbol (lib_id "Quantum Computing:SMA-SMA") (at 34.925 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a9c792e-d39c-409e-9276-13b39ab0ce8e)
-    (property "Reference" "L:101" (at 34.925 65.405 0)
+    (property "Reference" "L:?" (at 34.925 65.405 0)
       (effects (font (size 0.64 0.64)))
     )
     (property "Value" "SMA-SMA" (at 34.925 66.675 0)
@@ -37786,12 +37786,12 @@
     (property "Datasheet" "" (at 34.925 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 69ff1075-4265-4c62-9b8f-28cdca4b3a6f))
-    (pin "" (uuid 69ff1075-4265-4c62-9b8f-28cdca4b3a6f))
+    (pin "" (uuid 69ff1075-4265-4c62-9b8f-28cdca4b3a70))
+    (pin "" (uuid 69ff1075-4265-4c62-9b8f-28cdca4b3a70))
     (instances
       (project "Q1_2023"
         (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7"
-          (reference "L:101") (unit 1)
+          (reference "L:?") (unit 1)
         )
       )
     )
@@ -37800,7 +37800,7 @@
   (symbol (lib_id "Quantum Computing:QPU_5q_flux_4couplers") (at 152.4 178.435 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 210e410c-494a-41b1-ae23-13dd38fac273)
-    (property "Reference" "QPU104" (at 146.685 180.34 0)
+    (property "Reference" "QPU?" (at 146.685 180.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "QPU_5q_flux_4couplers" (at 146.685 182.372 0)
@@ -37831,7 +37831,7 @@
     (instances
       (project "Q1_2023"
         (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7"
-          (reference "QPU104") (unit 1)
+          (reference "QPU?") (unit 1)
         )
       )
     )
@@ -37840,7 +37840,7 @@
   (symbol (lib_id "Quantum Computing:QPU_1q_3D") (at 49.53 107.315 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 3ca68d45-3aae-40dc-82ea-9a6de34b740d)
-    (property "Reference" "QPU101" (at 49.53 99.695 0)
+    (property "Reference" "QPU?" (at 49.53 99.695 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "QPU_1q_3D" (at 49.53 101.727 0)
@@ -37852,12 +37852,12 @@
     (property "Datasheet" "" (at 49.53 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid f7686e39-eb1d-460f-96bd-1c45a13e368e))
-    (pin "" (uuid f7686e39-eb1d-460f-96bd-1c45a13e368e))
+    (pin "" (uuid f7686e39-eb1d-460f-96bd-1c45a13e368f))
+    (pin "" (uuid f7686e39-eb1d-460f-96bd-1c45a13e368f))
     (instances
       (project "Q1_2023"
         (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7"
-          (reference "QPU101") (unit 1)
+          (reference "QPU?") (unit 1)
         )
       )
     )
@@ -37866,7 +37866,7 @@
   (symbol (lib_id "Quantum Computing:QPU_1q_3D") (at 49.53 140.335 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 4d2d8e61-2d92-4637-826a-ee0174d02300)
-    (property "Reference" "QPU103" (at 49.53 132.715 0)
+    (property "Reference" "QPU?" (at 49.53 132.715 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "QPU_1q_3D" (at 49.53 134.747 0)
@@ -37878,12 +37878,12 @@
     (property "Datasheet" "" (at 49.53 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid ca846367-13fe-475f-a075-cd6c86c86176))
-    (pin "" (uuid ca846367-13fe-475f-a075-cd6c86c86176))
+    (pin "" (uuid ca846367-13fe-475f-a075-cd6c86c86177))
+    (pin "" (uuid ca846367-13fe-475f-a075-cd6c86c86177))
     (instances
       (project "Q1_2023"
         (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7"
-          (reference "QPU103") (unit 1)
+          (reference "QPU?") (unit 1)
         )
       )
     )
@@ -37892,10 +37892,10 @@
   (symbol (lib_id "Quantum Computing:LO_R&S") (at 88.265 160.02 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 51292624-54f1-4ad7-9190-5133e0b390c7)
-    (property "Reference" "LO101" (at 93.345 159.004 0)
+    (property "Reference" "LO?" (at 95.885 159.004 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LO_R&S" (at 93.345 161.29 0)
+    (property "Value" "LO_R&S" (at 95.885 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 88.265 160.02 0)
@@ -37908,7 +37908,7 @@
     (instances
       (project "Q1_2023"
         (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7"
-          (reference "LO101") (unit 1)
+          (reference "LO?") (unit 1)
         )
       )
     )
@@ -37917,7 +37917,7 @@
   (symbol (lib_id "Quantum Computing:SMA-SMA") (at 34.925 78.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8412386f-8678-4110-b472-90112c7d7b44)
-    (property "Reference" "L:102" (at 34.925 77.47 0)
+    (property "Reference" "L:?" (at 34.925 77.47 0)
       (effects (font (size 0.64 0.64)))
     )
     (property "Value" "SMA-SMA" (at 34.925 78.74 0)
@@ -37929,12 +37929,12 @@
     (property "Datasheet" "" (at 34.925 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 3b9d7590-34a1-416d-a50f-d60f1bd17115))
-    (pin "" (uuid 3b9d7590-34a1-416d-a50f-d60f1bd17115))
+    (pin "" (uuid 3b9d7590-34a1-416d-a50f-d60f1bd17116))
+    (pin "" (uuid 3b9d7590-34a1-416d-a50f-d60f1bd17116))
     (instances
       (project "Q1_2023"
         (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7"
-          (reference "L:102") (unit 1)
+          (reference "L:?") (unit 1)
         )
       )
     )
@@ -37943,7 +37943,7 @@
   (symbol (lib_id "Quantum Computing:QPU_1q_3D") (at 49.53 123.825 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid bdf29ba3-7e08-4d53-807b-8de1dce5c724)
-    (property "Reference" "QPU102" (at 49.53 116.205 0)
+    (property "Reference" "QPU?" (at 49.53 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "QPU_1q_3D" (at 49.53 118.237 0)
@@ -37955,12 +37955,12 @@
     (property "Datasheet" "" (at 49.53 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 3c6b3d13-8166-4ffc-9f9f-97cf15100402))
-    (pin "" (uuid 3c6b3d13-8166-4ffc-9f9f-97cf15100402))
+    (pin "" (uuid 3c6b3d13-8166-4ffc-9f9f-97cf15100403))
+    (pin "" (uuid 3c6b3d13-8166-4ffc-9f9f-97cf15100403))
     (instances
       (project "Q1_2023"
         (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7"
-          (reference "QPU102") (unit 1)
+          (reference "QPU?") (unit 1)
         )
       )
     )
@@ -37969,7 +37969,7 @@
   (symbol (lib_id "Quantum Computing:QPU_5q_flux") (at 66.675 187.325 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid d28c9f28-ca03-4693-85d9-76cec1f19df7)
-    (property "Reference" "QPU105" (at 60.96 189.23 0)
+    (property "Reference" "QPU?" (at 60.96 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "QPU_5q_flux" (at 60.96 191.262 0)
@@ -37996,7 +37996,7 @@
     (instances
       (project "Q1_2023"
         (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7"
-          (reference "QPU105") (unit 1)
+          (reference "QPU?") (unit 1)
         )
       )
     )
@@ -38005,7 +38005,7 @@
   (symbol (lib_id "Quantum Computing:QPU_21q_flux") (at 241.3 158.115 0) (unit 1)
     (in_bom yes) (on_board no) (dnp no) (fields_autoplaced)
     (uuid fd3fd3e4-022c-4ba8-9ea6-3b4e6ae779d2)
-    (property "Reference" "QPU106" (at 240.665 160.02 0)
+    (property "Reference" "QPU?" (at 240.665 160.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "QPU_21q_flux" (at 240.665 162.052 0)
@@ -38070,7 +38070,7 @@
     (instances
       (project "Q1_2023"
         (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7"
-          (reference "QPU106") (unit 1)
+          (reference "QPU?") (unit 1)
         )
       )
     )
