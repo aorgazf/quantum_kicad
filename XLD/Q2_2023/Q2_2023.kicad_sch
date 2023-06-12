@@ -1,0 +1,172 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9924af8b-9fcb-4325-a1dc-18dd2c4184d7)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 263.525 36.195) (xy 263.525 37.465))
+    (stroke (width 0) (type default))
+    (uuid 0b5c7601-32e3-4f0a-96f3-7dc7f78a33db)
+  )
+
+  (text "iqm5q\n" (at 91.44 36.195 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid a712de3b-1edd-4c5c-bcfd-7d7efd6b8092)
+  )
+  (text "qw5q_gold" (at 27.94 36.195 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid ad40ddff-3c20-4616-99f6-570c18b081d8)
+  )
+  (text "1qs" (at 207.645 36.195 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid de2a3717-9497-4824-9da8-f898c79d2ffe)
+  )
+  (text "qw25q" (at 146.05 36.195 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid eaa838f8-291d-47db-9463-ebdb8bcd29d3)
+  )
+
+  (sheet (at 63.5 92.075) (size 29.21 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 07777306-87c2-4eb9-aeba-eeffc6ad9af4)
+    (property "Sheetname" "L4" (at 63.5 91.3634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "L4.kicad_sch" (at 63.5 100.2796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Q2_2023"
+        (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 78.105 22.225) (size 50.165 23.495) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 148e980e-9f48-4feb-8355-1cd74c17609e)
+    (property "Sheetname" "iqm5q" (at 78.105 21.5134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "iqm5q.kicad_sch" (at 78.105 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Q2_2023"
+        (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 24.765 92.075) (size 29.21 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 848ca2d5-478c-4db4-9798-1caa67efa2a3)
+    (property "Sheetname" "L2" (at 24.765 91.3634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "L2.kicad_sch" (at 24.765 100.2796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Q2_2023"
+        (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 24.765 76.835) (size 29.21 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 953bfdb6-a998-42c8-942c-9b8cd87c2934)
+    (property "Sheetname" "L1" (at 24.765 76.1234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "L1.kicad_sch" (at 24.765 85.0396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Q2_2023"
+        (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 62.865 76.835) (size 29.21 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a6ee73f0-7ff1-4356-ac09-d9781c046e60)
+    (property "Sheetname" "L3" (at 62.865 76.1234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "L3.kicad_sch" (at 62.865 85.0396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Q2_2023"
+        (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 133.35 22.225) (size 50.165 23.495) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a7096aa3-4c13-4b44-b9e6-37770984b4aa)
+    (property "Sheetname" "qw25q" (at 133.35 21.5134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "qw25q.kicad_sch" (at 133.35 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Q2_2023"
+        (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 189.23 21.59) (size 50.165 23.495) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cbbd5daf-170b-465d-a354-f5302933c82d)
+    (property "Sheetname" "1qs" (at 189.23 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "1qs.kicad_sch" (at 189.23 45.6696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Q2_2023"
+        (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 22.225 22.225) (size 50.8 23.495) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f5fc6863-78bf-43d6-98d1-b801b8c06c72)
+    (property "Sheetname" "qw5q_gold" (at 22.225 21.5134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "qw5q_gold.kicad_sch" (at 22.225 46.3046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Q2_2023"
+        (path "/9924af8b-9fcb-4325-a1dc-18dd2c4184d7" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
