@@ -8,11 +8,6 @@
   )
 
 
-  (wire (pts (xy 263.525 36.195) (xy 263.525 37.465))
-    (stroke (width 0) (type default))
-    (uuid 0b5c7601-32e3-4f0a-96f3-7dc7f78a33db)
-  )
-
   (text "iqm5q\n" (at 91.44 36.195 0)
     (effects (font (size 5 5)) (justify left bottom))
     (uuid a712de3b-1edd-4c5c-bcfd-7d7efd6b8092)
