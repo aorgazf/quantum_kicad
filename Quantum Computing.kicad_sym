@@ -16484,11 +16484,11 @@
     )
     (symbol "QPU_1q_3D_1_1"
       (pin input line (at -10.16 0 0) (length 2.54)
-        (name "" (effects (font (size 0.8 0.8))))
+        (name "in" (effects (font (size 0.8 0.8))))
         (number "" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 10.16 0 180) (length 2.54)
-        (name "" (effects (font (size 0.8 0.8))))
+        (name "out" (effects (font (size 0.8 0.8))))
         (number "" (effects (font (size 1.27 1.27))))
       )
     )
