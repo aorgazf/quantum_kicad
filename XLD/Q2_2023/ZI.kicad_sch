@@ -4,6 +4,12 @@
 
   (paper "A2")
 
+  (title_block
+    (title "XLD Setup Q2 2023")
+    (date "2023-06-14")
+    (company "Technology Innovation Institute")
+  )
+
   (lib_symbols
   )
 
