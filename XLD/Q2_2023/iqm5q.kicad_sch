@@ -3021,8 +3021,6 @@
   )
 
 
-  (no_connect (at 132.08 97.155) (uuid a0134618-790f-42e0-9185-ebf2de3948ca))
-
   (bus_entry (at 536.575 307.34) (size 2.54 2.54)
     (stroke (width 0) (type default))
     (uuid 003dc4b8-dff0-4373-ba97-36e8562ad3cb)
@@ -4248,7 +4246,7 @@
     (effects (font (size 2 2) (color 0 194 194 1)) (justify left bottom))
     (uuid 49539547-8a64-45ae-886f-67d6039de540)
   )
-  (text "LP 7.2GHz - IR 10GHz" (at 274.955 356.235 0)
+  (text "LP 8GHz - IR 10GHz" (at 274.955 356.235 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 598dec82-261f-4f06-8b0a-2bb9a679f4fc)
   )
