@@ -2876,6 +2876,12 @@
     (uuid feff465e-1924-45a5-b8fc-e0a4060d8b20)
   )
 
+  (rectangle (start 307.34 93.345) (end 378.46 177.165)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 0cc9b181-54d3-4716-8c00-595a71124e33)
+  )
+
   (text "192.168.000.208" (at 180.34 384.81 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 09b66e83-bdf7-41bd-a9bc-8acf016d163e)
@@ -2939,6 +2945,11 @@
   (text "192.168.0.31" (at 230.505 318.135 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f4dbed08-ba00-4158-9dfc-af2660000138)
+  )
+  (text "ERA_03, ERA_04, & ERA_06 are going to be disconnected and used elsewhere to pump the new twpas"
+    (at 307.34 179.07 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fba16616-0ddd-4c88-a38b-aa1c3a00c605)
   )
 
   (label "QM_6_10" (at 397.002 114.935 270) (fields_autoplaced)
