@@ -1411,11 +1411,11 @@
       )
     )
   )
-  (symbol "LO_ERA_pp" (in_bom yes) (on_board no)
+  (symbol "LO_ERA" (in_bom yes) (on_board no)
     (property "Reference" "LO" (at 7.62 1.016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LO_ERA_pp" (at 7.62 -1.27 0)
+    (property "Value" "LO_ERA" (at 7.62 -1.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 0 0 0)
@@ -1427,7 +1427,7 @@
     (property "ki_description" "Synthesiser" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "LO_ERA_pp_0_0"
+    (symbol "LO_ERA_0_0"
       (arc (start -3.302 0) (mid -1.651 -0.9472) (end 0 0)
         (stroke (width 0) (type default))
         (fill (type none))
@@ -1441,7 +1441,7 @@
         (fill (type none))
       )
     )
-    (symbol "LO_ERA_pp_1_1"
+    (symbol "LO_ERA_1_1"
       (pin output line (at 0 -7.62 90) (length 2.54)
         (name "" (effects (font (size 1.27 1.27))))
         (number "" (effects (font (size 1.27 1.27))))
